@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>{{title}}</h1>
-    <Carousel>
-      <div slot-scope="{ prop1 }">
-        {{ prop1 }}
+    <Carousel :items="products" :page-size="1" :style="{ width: '400px' }">
+      <div slot="item" slot-scope="{ item }" class="wrapper">
+        <Product :name="item.name" :image="item.image" :price="item.price"/>
       </div>
     </Carousel>
   </div>
@@ -11,10 +11,19 @@
 
 <script>
 import Carousel from './Carousel'
+import Product from './Product'
+
+import products from '../catalog.json'
 
 export default {
+  data () {
+    return {
+      products
+    }
+  },
   components: {
-    Carousel
+    Carousel,
+    Product
   },
   props: {
     title: {
@@ -35,6 +44,15 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .wrapper {
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+    border: 1px black solid;
+    box-sizing: border-box;
+  }
 </style>

@@ -1,0 +1,33 @@
+[
+    {
+        "id": "2177017",
+        "name": "Vestido Evasê Vermelho",
+        "price": 69.99,
+        "image": "//www.cea.com.br/arquivos/ids/2489260-200-200/Vestido-Evase-Vermelho-9001163-Vermelho_1-1.jpg"
+    }, {
+        "id": "2174482",
+        "name": "Vestido Estampado Floral Preto",
+        "price": 99.99,
+        "image": "//www.cea.com.br/arquivos/ids/2319908-200-200/Vestido-Estampado-Floral-Preto-8850466-Preto_1-1.jpg"
+    }, {
+        "id": "2178264",
+        "name": "Saia Feminina Curta Estampada Geométrica Preta",
+        "price": 79.99,
+        "image": "//www.cea.com.br/arquivos/ids/2524880-200-200/Saia-Feminina-Curta-Estampada-Geometrica-Preta-8884407-Preto_1-1.jpg"
+    }, {
+        "id": "2177017",
+        "name": "Vestido Evasê Vermelho",
+        "price": 69.99,
+        "image": "//www.cea.com.br/arquivos/ids/2489260-200-200/Vestido-Evase-Vermelho-9001163-Vermelho_1-1.jpg"
+    }, {
+        "id": "2174482",
+        "name": "Vestido Estampado Floral Preto",
+        "price": 99.99,
+        "image": "//www.cea.com.br/arquivos/ids/2319908-200-200/Vestido-Estampado-Floral-Preto-8850466-Preto_1-1.jpg"
+    }, {
+        "id": "2178264",
+        "name": "Saia Feminina Curta Estampada Geométrica Preta",
+        "price": 79.99,
+        "image": "//www.cea.com.br/arquivos/ids/2524880-200-200/Saia-Feminina-Curta-Estampada-Geometrica-Preta-8884407-Preto_1-1.jpg"
+    }
+]

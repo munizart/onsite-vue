@@ -5,9 +5,15 @@
 </template>
 
 <script>
+import catalog from './catalog.json'
 import Widget from './components/Widget'
 
 export default {
+  data () {
+    return {
+      catalog
+    }
+  },
   name: 'App',
   components: {
     Widget
